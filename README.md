@@ -115,6 +115,22 @@ guardar otros y restaurarlos.
 Si quieres agregar otra distribución, abre un *issue*. Las posiciones están en
 [`yama/layout.py`](yama/layout.py).
 
+## Problemas comunes
+
+**La rueda de volumen no hace nada.** La rueda no depende de este programa: el teclado manda
+las teclas estándar de subir y bajar volumen. Si Windows no reacciona, casi siempre hay otro
+programa capturando las teclas de volumen:
+
+- **Voicemeeter**: en *Menu → Shortcut Key (Hook)* desmarca **Hook Volume Keys**. Con esa
+  opción activa, la rueda mueve el nivel de Voicemeeter en vez del volumen de Windows.
+- **Discord** u otros programas con atajos globales: prueba cerrándolos.
+
+Para confirmarlo, cierra esos programas y gira la rueda: debería aparecer el indicador de
+volumen de Windows.
+
+**«No encontré el Redragon Yama».** Revisa que el teclado esté conectado y que el programa de
+Redragon esté cerrado, también desde el área de notificaciones junto al reloj.
+
 ## Advertencias
 
 - **Probado solo con el Redragon K550RGB-1 (Yama).** Otros teclados de distintas marcas usan el
